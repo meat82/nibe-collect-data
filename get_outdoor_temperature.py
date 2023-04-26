@@ -83,6 +83,7 @@ for system in systems:
             temperature = parameter_display_value[0:len(parameter_display_value)-2]
             # data to be sent to api
             data = {'temperatureValue':temperature}
+            print(data)
             # sending post request and saving response as response object
             response_temperature = requests.post(url = temperature_api_endpoint, json = data)
             if response_temperature.status_code != HTTP_STATUS_OK:
