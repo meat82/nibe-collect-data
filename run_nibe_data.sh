@@ -1,3 +1,3 @@
 #!/bin/sh
 # Just execute python script
-python get_outdoor_temperature.py
+python3 get_outdoor_temperature.py
