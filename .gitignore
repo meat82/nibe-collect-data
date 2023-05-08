@@ -1,5 +1,6 @@
 #NIBE token
 NIBE_Uplink_API_Token.json
+cron_nibe_data.sh
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
