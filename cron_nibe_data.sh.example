@@ -1,0 +1,5 @@
+#!/bin/sh
+# Just execute python script
+export NIBE_CLIENT_ID=<defined>
+export NIBE_CLIENT_SECRET=<define>
+python3 <absolute_path>/get_outdoor_temperature.py
